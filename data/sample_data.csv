@@ -5,3 +5,4 @@ CUST-003,Alice,Johnson,alice.j@example.com,555-0103,2023-03-10,Canada,Enterprise
 CUST-004,Bob,Brown,bob.b@example.com,555-0104,2023-04-05,USA,Small Business,15000.00,false
 CUST-005,Charlie,Davis,charlie.d@example.com,555-0105,2023-05-12,UK,Enterprise,250000.00,true
 CUST-006,Eve,White,eve.w@example.com,555-0106,2023-06-18,Australia,Mid-Market,60000.00,true
+CUST-007,Frank,Miller,frank.m@example.com,555-0107,2023-07-22,USA,Enterprise,300000.00,true
