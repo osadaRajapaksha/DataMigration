@@ -45,3 +45,10 @@ resource "google_project_iam_member" "data_fusion_gcs" {
   role    = "roles/storage.objectAdmin"
   member  = "serviceAccount:${google_service_account.data_fusion_sa.email}"
 }
+
+# Cloud Data Fusion Instance
+resource "google_data_fusion_instance" "etl_instance" {
+  name    = "enterprise-etl-${var.environment}"
+  region  = var.region
+  type    = "BASIC"
+}
