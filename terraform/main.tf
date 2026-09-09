@@ -6,3 +6,13 @@ resource "google_storage_bucket" "raw_data_lake" {
 }
 
   uniform_bucket_level_access = true
+
+  lifecycle_rule {
+    condition {
+      age = 90
+    }
+    action {
+      type = "SetStorageClass"
+      storage_class = "NEARLINE"
+    }
+  }
