@@ -19,3 +19,9 @@ This repository contains the infrastructure-as-code (Terraform) and supporting s
    terraform init
    terraform apply
    ```
+
+## 2. Upload Sample Data
+Once the infrastructure is created, Terraform will output the `raw_bucket_name`. Upload the sample data into it:
+```bash
+gsutil cp ../data/sample_data.csv gs://<YOUR_RAW_BUCKET_NAME>/incoming/
+```
