@@ -38,3 +38,10 @@ resource "google_project_iam_member" "data_fusion_bq" {
   role    = "roles/bigquery.dataEditor"
   member  = "serviceAccount:${google_service_account.data_fusion_sa.email}"
 }
+
+# Grant Cloud Storage Access to Data Fusion SA
+resource "google_project_iam_member" "data_fusion_gcs" {
+  project = var.project_id
+  role    = "roles/storage.objectAdmin"
+  member  = "serviceAccount:${google_service_account.data_fusion_sa.email}"
+}
