@@ -12,3 +12,4 @@ This repository contains the infrastructure-as-code (Terraform) and supporting s
    ```bash
    gcloud auth application-default login
    ```
+2. Set your Project ID in `terraform/variables.tf` (or provide it via a `terraform.tfvars` file).
