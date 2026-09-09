@@ -16,3 +16,12 @@ resource "google_storage_bucket" "raw_data_lake" {
       storage_class = "NEARLINE"
     }
   }
+
+# BigQuery Dataset - Analytics Zone
+resource "google_bigquery_dataset" "analytics_dataset" {
+  dataset_id                  = "enterprise_analytics_${var.environment}"
+  friendly_name               = "Enterprise Analytics"
+  description                 = "Dataset for enterprise customer analytics"
+  location                    = var.region
+  delete_contents_on_destroy  = true
+}
