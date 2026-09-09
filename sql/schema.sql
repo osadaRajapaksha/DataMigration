@@ -16,3 +16,4 @@ CREATE OR REPLACE TABLE `your-gcp-project-id.enterprise_analytics_dev.customers`
 );
 
 -- Example View for Looker Studio
+CREATE OR REPLACE VIEW `your-gcp-project-id.enterprise_analytics_dev.customer_summary_view` AS
