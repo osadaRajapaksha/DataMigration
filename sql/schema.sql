@@ -14,3 +14,5 @@ CREATE OR REPLACE TABLE `your-gcp-project-id.enterprise_analytics_dev.customers`
     annual_spend NUMERIC,
     is_active BOOLEAN
 );
+
+-- Example View for Looker Studio
