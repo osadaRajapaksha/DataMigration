@@ -6,3 +6,5 @@ CREATE OR REPLACE TABLE `your-gcp-project-id.enterprise_analytics_dev.customers`
     customer_id STRING OPTIONS(description="Unique identifier for the customer"),
     first_name STRING,
     last_name STRING,
+    email STRING,
+    phone_number STRING,
