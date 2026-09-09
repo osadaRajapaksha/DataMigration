@@ -15,3 +15,9 @@ variable "zone" {
   type        = string
   default     = "us-central1-a"
 }
+
+variable "environment" {
+  description = "Environment name (e.g. dev, prod)"
+  type        = string
+  default     = "dev"
+}
