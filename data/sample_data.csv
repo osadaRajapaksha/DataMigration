@@ -7,3 +7,4 @@ CUST-005,Charlie,Davis,charlie.d@example.com,555-0105,2023-05-12,UK,Enterprise,2
 CUST-006,Eve,White,eve.w@example.com,555-0106,2023-06-18,Australia,Mid-Market,60000.00,true
 CUST-007,Frank,Miller,frank.m@example.com,555-0107,2023-07-22,USA,Enterprise,300000.00,true
 CUST-008,Grace,Wilson,grace.w@example.com,555-0108,2023-08-30,Canada,Mid-Market,55000.00,false
+CUST-009,Henry,Moore,henry.m@example.com,555-0109,2023-09-14,Australia,Enterprise,180000.00,true
