@@ -13,3 +13,4 @@ CUST-011,Jack,Anderson,jack.a@example.com,555-0111,2023-11-15,USA,Enterprise,130
 CUST-012,Kelly,Thomas,kelly.t@example.com,555-0112,2023-12-05,UK,Small Business,12000.00,true
 CUST-013,Leo,Jackson,leo.j@example.com,555-0113,2024-01-20,Canada,Mid-Market,52000.00,false
 CUST-014,Mia,White,mia.w@example.com,555-0114,2024-02-14,Australia,Enterprise,190000.00,true
+CUST-015,Noah,Harris,noah.h@example.com,555-0115,2024-03-01,USA,Enterprise,210000.00,true
