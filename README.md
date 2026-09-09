@@ -25,3 +25,9 @@ Once the infrastructure is created, Terraform will output the `raw_bucket_name`.
 ```bash
 gsutil cp ../data/sample_data.csv gs://<YOUR_RAW_BUCKET_NAME>/incoming/
 ```
+
+## 3. Data Fusion Pipeline
+1. Navigate to the Cloud Data Fusion UI in the GCP Console.
+2. Click **Studio**.
+3. Build a pipeline (Source: GCS, Transform: Wrangler, Sink: BigQuery).
+4. Deploy and Run the pipeline.
