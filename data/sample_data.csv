@@ -8,3 +8,4 @@ CUST-006,Eve,White,eve.w@example.com,555-0106,2023-06-18,Australia,Mid-Market,60
 CUST-007,Frank,Miller,frank.m@example.com,555-0107,2023-07-22,USA,Enterprise,300000.00,true
 CUST-008,Grace,Wilson,grace.w@example.com,555-0108,2023-08-30,Canada,Mid-Market,55000.00,false
 CUST-009,Henry,Moore,henry.m@example.com,555-0109,2023-09-14,Australia,Enterprise,180000.00,true
+CUST-010,Ivy,Taylor,ivy.t@example.com,555-0110,2023-10-01,USA,Mid-Market,80000.00,true
