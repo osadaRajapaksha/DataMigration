@@ -1,3 +1,4 @@
 customer_id,first_name,last_name,email,phone_number,registration_date,country,segment,annual_spend,is_active
 CUST-001,John,Doe,john.doe@example.com,555-0101,2023-01-15,USA,Enterprise,150000.00,true
 CUST-002,Jane,Smith,jane.smith@example.com,555-0102,2023-02-20,UK,Mid-Market,45000.50,true
+CUST-003,Alice,Johnson,alice.j@example.com,555-0103,2023-03-10,Canada,Enterprise,120000.00,true
