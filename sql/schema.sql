@@ -20,3 +20,4 @@ CREATE OR REPLACE VIEW `your-gcp-project-id.enterprise_analytics_dev.customer_su
 SELECT
     country,
     segment,
+    COUNT(customer_id) as total_customers,
