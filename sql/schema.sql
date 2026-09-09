@@ -10,3 +10,4 @@ CREATE OR REPLACE TABLE `your-gcp-project-id.enterprise_analytics_dev.customers`
     phone_number STRING,
     registration_date DATE,
     country STRING,
+    segment STRING OPTIONS(description="Customer business segment: e.g. Enterprise, Mid-Market"),
