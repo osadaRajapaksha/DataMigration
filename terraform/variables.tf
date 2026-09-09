@@ -9,3 +9,9 @@ variable "region" {
   type        = string
   default     = "us-central1"
 }
+
+variable "zone" {
+  description = "The zone to deploy resources in"
+  type        = string
+  default     = "us-central1-a"
+}
