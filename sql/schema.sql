@@ -25,3 +25,5 @@ SELECT
     ROUND(AVG(annual_spend), 2) as average_spend
 FROM
     `your-gcp-project-id.enterprise_analytics_dev.customers`
+WHERE
+    is_active = TRUE
