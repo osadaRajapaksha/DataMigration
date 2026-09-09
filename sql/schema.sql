@@ -11,3 +11,6 @@ CREATE OR REPLACE TABLE `your-gcp-project-id.enterprise_analytics_dev.customers`
     registration_date DATE,
     country STRING,
     segment STRING OPTIONS(description="Customer business segment: e.g. Enterprise, Mid-Market"),
+    annual_spend NUMERIC,
+    is_active BOOLEAN
+);
