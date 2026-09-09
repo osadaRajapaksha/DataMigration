@@ -3,3 +3,9 @@ variable "project_id" {
   type        = string
   default     = "your-gcp-project-id"
 }
+
+variable "region" {
+  description = "The region to deploy resources in"
+  type        = string
+  default     = "us-central1"
+}
