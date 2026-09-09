@@ -25,3 +25,9 @@ resource "google_bigquery_dataset" "analytics_dataset" {
   location                    = var.region
   delete_contents_on_destroy  = true
 }
+
+# Dedicated Service Account for Data Fusion
+resource "google_service_account" "data_fusion_sa" {
+  account_id   = "data-fusion-runner-${var.environment}"
+  display_name = "Data Fusion Runner Service Account"
+}
