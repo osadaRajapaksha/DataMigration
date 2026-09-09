@@ -31,3 +31,9 @@ gsutil cp ../data/sample_data.csv gs://<YOUR_RAW_BUCKET_NAME>/incoming/
 2. Click **Studio**.
 3. Build a pipeline (Source: GCS, Transform: Wrangler, Sink: BigQuery).
 4. Deploy and Run the pipeline.
+
+## 4. Looker Studio Dashboard
+1. Go to Looker Studio.
+2. Create a Blank Report.
+3. Add BigQuery Data Source.
+4. Connect to `customer_summary_view` and visualize.
