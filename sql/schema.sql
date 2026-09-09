@@ -21,3 +21,4 @@ SELECT
     country,
     segment,
     COUNT(customer_id) as total_customers,
+    SUM(annual_spend) as total_annual_spend,
