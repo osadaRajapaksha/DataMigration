@@ -8,3 +8,5 @@ CREATE OR REPLACE TABLE `your-gcp-project-id.enterprise_analytics_dev.customers`
     last_name STRING,
     email STRING,
     phone_number STRING,
+    registration_date DATE,
+    country STRING,
