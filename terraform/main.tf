@@ -31,3 +31,10 @@ resource "google_service_account" "data_fusion_sa" {
   account_id   = "data-fusion-runner-${var.environment}"
   display_name = "Data Fusion Runner Service Account"
 }
+
+# Grant BigQuery Access to Data Fusion SA
+resource "google_project_iam_member" "data_fusion_bq" {
+  project = var.project_id
+  role    = "roles/bigquery.dataEditor"
+  member  = "serviceAccount:${google_service_account.data_fusion_sa.email}"
+}
