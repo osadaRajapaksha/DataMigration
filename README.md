@@ -5,3 +5,4 @@ This repository contains the infrastructure-as-code (Terraform) and supporting s
 ## Prerequisites
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) installed (v1.0+)
 - Google Cloud CLI (`gcloud`) installed and authenticated.
+- A GCP Project with billing enabled.
